@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#270949"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/comic"
+        android:gravity="center"
+        android:text="@string/toolbar_main"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="17dp"
+        android:src="@drawable/about"
+        android:layout_alignParentEnd="true" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/courses"
+        android:layout_below="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_recycle_view"/>
+
+</RelativeLayout>

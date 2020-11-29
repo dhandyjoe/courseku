@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Course-Ku</string>
+    <string name="judul_app">Course-Ku</string>
+    <string name="motivation">talk is cheap, show your the code</string>
+    <string name="toolbar_main">Pilih Course</string>
+    <string name="btn_detail">DAFTAR</string>
+    <string name="about_name">Dhandy Joenathan Kurnia Putra</string>
+    <string name="about_gmail">dhanjoenkp@gmail.com</string>
+</resources>
