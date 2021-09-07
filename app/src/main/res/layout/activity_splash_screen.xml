@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreen"
+    tools:context=".activity.SplashScreen"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -29,10 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:textColor="#270494"
-        android:textSize="15sp"
         android:fontFamily="@font/futuraheavy"
         android:text="@string/motivation"
-        android:textStyle="italic"/>
+        android:textColor="#3F3854"
+        android:textSize="15sp"
+        android:textStyle="italic" />
 
 </LinearLayout>

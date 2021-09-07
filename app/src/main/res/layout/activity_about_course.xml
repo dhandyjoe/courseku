@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".AboutCourse">
+    tools:context=".activity.AboutCourse">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="150dp"
@@ -28,11 +28,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13dp"
             android:layout_marginLeft="20dp"
-            android:textStyle="bold"
+            android:layout_marginTop="13dp"
             android:layout_toRightOf="@+id/ic_username"
-            android:text="@string/about_name"/>
+            android:text="@string/about_name"
+            android:textStyle="bold" />
 
 
         <ImageView
